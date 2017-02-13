@@ -1,0 +1,5 @@
+c:\users\austi\onedrive\documents\visual studio 2017\Projects\SRequest\SRequest\bin\Debug\SRequest.dll
+c:\users\austi\onedrive\documents\visual studio 2017\Projects\SRequest\SRequest\bin\Debug\SRequest.pdb
+c:\users\austi\onedrive\documents\visual studio 2017\Projects\SRequest\SRequest\obj\Debug\SRequest.csprojResolveAssemblyReference.cache
+c:\users\austi\onedrive\documents\visual studio 2017\Projects\SRequest\SRequest\obj\Debug\SRequest.dll
+c:\users\austi\onedrive\documents\visual studio 2017\Projects\SRequest\SRequest\obj\Debug\SRequest.pdb
