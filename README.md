@@ -29,18 +29,17 @@ parameters.Add(
     Value = username
   });
   
-string value = new HTTPRequest()
-                    .MakeRequest(
-                        URL,
-                        HOST,
-                        USER AGENT,
-                        CONTENT TYPE,
-                        ACCEPT,
-                        REFERER,
-                        proxy, //Optional
-                        parameters,
-                        cookies,
-                        headers,
-                        true //for POST
-                    );
+HTTPRequest req = new HTTPRequest("URL");
+req.SetHeaders(headers);
+req.SetCookies(cookies);
+string x = req.Execute(
+              "HOST",
+              "USERAGENT",
+              "CONTENT TYPE",
+              "ACCEPT",
+              "REFERER",
+              PROXY, // OPTIONAL
+              parameters,
+              true
+              );
 ```
